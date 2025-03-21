@@ -1,0 +1,3 @@
+The file src/assets/fonts/custom-font.ttf is intended to contain a custom font file. Since I cannot generate binary files or font files directly, you will need to obtain a .ttf font file and place it in the specified directory. 
+
+Please ensure you have a suitable font file named custom-font.ttf and place it in the src/assets/fonts directory of your project.
