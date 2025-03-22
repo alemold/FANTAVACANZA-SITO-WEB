@@ -1,4 +1,11 @@
 module.exports = {
+  pages: {
+    index: {
+      entry: 'src/main.js',
+      title: 'FantaVacanza',
+      favicon: 'src/assets/images/logo.png'
+    }
+  },
   publicPath: './',
   lintOnSave: false,
   configureWebpack: {

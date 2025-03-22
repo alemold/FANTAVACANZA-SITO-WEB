@@ -5,8 +5,10 @@ body {
     background: linear-gradient(135deg, #1e5799, #7db9e8);
     margin: 0;
     padding: 0;
-    height: 100vh;
-    overflow: hidden;
+    min-height: 100vh; /* Changed from height: 100vh */
+    overflow-x: hidden;
+    overflow-y: auto; /* Changed from overflow: hidden */
+    -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS */
 }
 
 .timer {
